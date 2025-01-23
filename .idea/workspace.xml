@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73683aec-8937-4548-a5d4-970dfad70829" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/scikit-learn.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decision_tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lasso.regression.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linear.regression.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logistic_regression.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ridge_regression.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/svm.model.py" afterDir="false" />
-    </list>
+    <list default="true" id="73683aec-8937-4548-a5d4-970dfad70829" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,5 +52,16 @@
       <updated>1737642366756</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
