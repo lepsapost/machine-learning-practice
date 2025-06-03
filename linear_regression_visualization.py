@@ -1,5 +1,6 @@
 from sklearn.datasets import load_iris
 import matplotlib.pyplot as plt
+import numpy as np
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 
@@ -23,12 +24,13 @@ y_pred = model.predict(X_test)
 
 
 plt.scatter(X, y, color='blue')  # Gerçek veri noktaları
-plt.plot(X_test, y_pred, color='red')  # Modelin tahmin ettiği doğrusal çizgi
+sorted_indices = np.argsort(X_test.reshape(-1))
+plt.plot(X_test[sorted_indices], y_pred[sorted_indices], color='red')  # Modelin tahmin ettiği doğrusal çizgi
 plt.title('Linear Regression: Sepal Length vs Petal Length')
 plt.xlabel('Sepal Length')
 plt.ylabel('Petal Length')
 plt.show()
 
 
-accuracy = model.score(X_test, y_test)
-print(f"Model doğruluğu: {accuracy * 100:.2f}%")
+r2 = model.score(X_test, y_test)
+print(f"Model R^2 skoru: {r2 * 100:.2f}%")
